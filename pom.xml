@@ -18,7 +18,7 @@
     <repository>
       <id>github</id>
       <name>GitHub repo</name>
-      <url>https://maven.pkg.github.com/ishenavaa/testing/</url>
+      <url>https://maven.pkg.github.com/shenavaa/testing/</url>
     </repository>
   </distributionManagement>
 
