@@ -14,6 +14,14 @@
     <github-repo>testing</github-repo>
   </properties>
 
+  <distributionManagement>
+    <repository>
+      <id>shenavaa.repo</id>
+      <name>My github repo</name>
+      <url>https://maven.pkg.github.com/${github-user}/${github-repo}.git</url>
+    </repository>
+  </distributionManagement>
+
   <scm>
     <connection>scm:git:https://github.com/${github-user}/${github-repo}.git</connection>
     <developerConnection>scm:git:git@github.com:${github-user}/${github-repo}.git</developerConnection>
