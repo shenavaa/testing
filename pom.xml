@@ -16,19 +16,14 @@
 
   <distributionManagement>
     <repository>
-      <id>shenavaa.repo</id>
-      <name>My github repo</name>
-      <url>https://maven.pkg.github.com/${github-user}/${github-repo}</url>
+      <id>github</id>
+      <name>GitHub repo</name>
+      <url>https://maven.pkg.github.com/ishenavaa/testing/</url>
     </repository>
   </distributionManagement>
 
   <build>
             <plugins>
-                <plugin>
-                  <groupId>org.apache.maven.plugins</groupId>
-                  <artifactId>maven-release-plugin</artifactId>
-                  <version>3.0.0-M4</version>
-                </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
